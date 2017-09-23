@@ -18,13 +18,13 @@ namespace PractiseCSharp
                 string input = "";
                 char first = ' ';
                 char last = ' ';
-                Console.Write("Enter a string: ");
+                Console.Write(Comman.EnterString);
                 input = Console.ReadLine();
                 Loop(ref result, ref checkPalin, input, ref first, ref last);
                 IsPalindrome(result);
-                Console.Write("Do u want to exit. Press Y/N : ");
+                Console.Write(Comman.ExitOrContinue);
                 exit = Console.ReadLine();
-                if (exit == "Y")
+                if (exit == Comman.YesExit)
                     break;
             }
         }
