@@ -10,14 +10,16 @@ namespace PractiseCSharp
     {
         static void Main(string[] args)
         {
+            bool result;
+            bool checkPalin;
+            char first = ' ';
+            char last = ' ';
             string exit = "";
+            string input = "";
             while (true)
             {
-                bool result = true;
-                bool checkPalin = false;
-                string input = "";
-                char first = ' ';
-                char last = ' ';
+                result = true;
+                checkPalin = false;
                 Console.Write(Comman.EnterString);
                 input = Console.ReadLine();
                 Loop(ref result, ref checkPalin, input, ref first, ref last);
