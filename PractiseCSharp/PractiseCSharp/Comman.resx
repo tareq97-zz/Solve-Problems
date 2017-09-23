@@ -124,6 +124,6 @@
     <value>Do u want to exit. Press Y/N :</value>
   </data>
   <data name="YesExit" xml:space="preserve">
-    <value>"Y"</value>
+    <value>Y</value>
   </data>
 </root>
